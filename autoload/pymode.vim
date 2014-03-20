@@ -135,4 +135,5 @@ fun! pymode#quit() "{{{
     augroup pymode
         au!
     augroup END
+    lclose
 endfunction "}}}
